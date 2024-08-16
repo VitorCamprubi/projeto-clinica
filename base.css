@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.header img {
+    width: 980px;
+    position: absolute;
+    margin-top: -29px;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: lightblue;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:  rgb(230, 230, 230);
+    min-height: 150px;
+}
+.menu img{
+    width: 194px;
+    display: block;
+    margin-top: -3px;
+    margin-left: -9px;
+   
+}
+
+
+
+
+
